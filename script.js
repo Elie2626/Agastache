@@ -91,6 +91,7 @@
   /* ---------- Menu tabs ---------- */
   const tabs = [...document.querySelectorAll(".menu-tab")];
   const tabsWrap = document.querySelector(".menu-tabs");
+  const skyScene = document.getElementById("sky-scene");
   const panels = {
     "tab-dejeuner": document.getElementById("panel-dejeuner"),
     "tab-diner": document.getElementById("panel-diner"),
@@ -111,6 +112,7 @@
         }
       });
       tabsWrap.dataset.active = String(index);
+      skyScene.classList.toggle("is-night", tab.id === "tab-diner");
     });
   });
 

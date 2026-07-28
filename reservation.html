@@ -1,0 +1,185 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Réserver une table — Agastache, Restaurant à Lyon</title>
+<meta name="description" content="Réservez votre table au restaurant Agastache, Lyon 6e. Déjeuner du lundi au vendredi dès 12h, dîner lundi, mardi, jeudi et vendredi dès 19h30." />
+<link rel="icon" href="images/feuille.png" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,300;1,9..144,400;1,9..144,500&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body class="page-reservation">
+
+<a class="skip-link" href="#main">Passer au contenu principal</a>
+<div class="progress" aria-hidden="true"><span id="progress-bar"></span></div>
+
+<header class="site-header is-solid" id="site-header">
+  <div class="header-inner">
+    <a href="index.html" class="brand" aria-label="Agastache — Accueil">
+      <img src="images/logo.png" alt="" class="brand-mark" />
+    </a>
+
+    <nav class="main-nav" aria-label="Navigation principale">
+      <a href="index.html#restaurant"><span data-text="Le Restaurant">Le Restaurant</span></a>
+      <a href="index.html#assiette"><span data-text="À l'assiette">À l'assiette</span></a>
+      <a href="index.html#menus"><span data-text="Menus">Menus</span></a>
+      <a href="index.html#equipe"><span data-text="L'Équipe">L'Équipe</span></a>
+      <a href="index.html#reservation"><span data-text="Contact">Contact</span></a>
+    </nav>
+
+    <div class="header-actions">
+      <a class="btn btn-primary btn-small" href="#module">Réserver</a>
+      <button class="nav-toggle" id="nav-toggle" aria-expanded="false" aria-controls="mobile-nav" aria-label="Ouvrir le menu">
+        <span></span><span></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<div class="mobile-nav" id="mobile-nav" aria-hidden="true">
+  <nav aria-label="Navigation mobile">
+    <a href="index.html#restaurant" style="--i:0">Le Restaurant</a>
+    <a href="index.html#assiette" style="--i:1">À l'assiette</a>
+    <a href="index.html#menus" style="--i:2">Menus</a>
+    <a href="index.html#equipe" style="--i:3">L'Équipe</a>
+    <a href="#module" style="--i:4">Réserver</a>
+  </nav>
+  <div class="mobile-nav-foot" style="--i:5">
+    <a href="tel:+33478523031">04 78 52 30 31</a>
+    <p>134 rue Duguesclin, Lyon 6e</p>
+  </div>
+</div>
+
+<main id="main">
+
+  <section class="res-hero">
+    <div class="container">
+      <p class="eyebrow reveal">Réservation</p>
+      <h1 class="res-title reveal">Pour réserver une table&nbsp;?<br /><em>Rien de plus simple&nbsp;!</em></h1>
+      <p class="res-lede reveal">Remplissez le formulaire ci-dessous.</p>
+    </div>
+  </section>
+
+  <section class="section res-body">
+    <div class="container res-grid">
+
+      <div class="res-main">
+        <div class="res-block reveal">
+          <p>
+            Une fois votre réservation effectuée, vous recevrez une confirmation
+            par SMS et e-mail de la part du restaurant.
+          </p>
+          <p>
+            N'hésitez pas à consulter vos spams si vous ne recevez pas de mail de
+            notre part. Si vous avez un doute suite à votre réservation, vous
+            pouvez nous contacter directement au
+            <a href="tel:+33478523031">04 78 52 30 31</a>.
+          </p>
+        </div>
+
+        <div class="res-callout reveal">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M12 9v4"/><path d="M12 16.5h.01"/><path d="M10.3 3.9 2.4 18a2 2 0 0 0 1.7 3h15.8a2 2 0 0 0 1.7-3L13.7 3.9a2 2 0 0 0-3.4 0Z"/></svg>
+          <p>
+            Vous recevrez également un SMS/mail la veille, vous demandant de
+            reconfirmer votre réservation. <strong>Sans cette reconfirmation,
+            nous ne pourrons conserver votre table.</strong>
+          </p>
+        </div>
+
+        <div class="res-block reveal">
+          <p>Les menus changent régulièrement et sont mis à jour en temps réel sur le site.</p>
+          <p>
+            Nous avons régulièrement des désistements&nbsp;: n'hésitez pas à nous
+            contacter directement au restaurant, ou à vérifier les créneaux en ligne.
+          </p>
+        </div>
+
+        <div class="res-wednesdays reveal">
+          <p class="res-block-title">Mercredis soir</p>
+          <p>
+            Nous ouvrons désormais plusieurs mercredis soir par mois. Vous pouvez
+            réserver votre table directement sur notre module de réservation.
+          </p>
+          <dl class="res-dates">
+            <div>
+              <dt>Juin</dt>
+              <dd><span>24</span></dd>
+            </div>
+            <div>
+              <dt>Juillet</dt>
+              <dd><span>1</span><span>8</span><span>15</span><span>22</span><span>29</span></dd>
+            </div>
+          </dl>
+        </div>
+      </div>
+
+      <aside class="res-aside">
+        <div class="res-card reveal">
+          <p class="res-card-title">Nos horaires</p>
+          <dl class="hours-list">
+            <div class="hours-row">
+              <dt>Déjeuner</dt>
+              <dd>Lundi — Vendredi<br /><span>à partir de 12h</span></dd>
+            </div>
+            <div class="hours-row">
+              <dt>Dîner</dt>
+              <dd>Lundi, Mardi, Jeudi, Vendredi<br /><span>à partir de 19h30</span></dd>
+            </div>
+          </dl>
+
+          <p class="res-card-title res-card-title-2">Nous contacter</p>
+          <a href="tel:+33478523031" class="reservation-line">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M4 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L14 13l5 2v4a2 2 0 0 1-2 2A15 15 0 0 1 4 6a2 2 0 0 1 2-2Z"/></svg>
+            <span>04 78 52 30 31</span>
+          </a>
+          <a href="mailto:Contact@agastache-restaurant-lyon.fr" class="reservation-line">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg>
+            <span>Contact@<br />agastache-restaurant-lyon.fr</span>
+          </a>
+          <a href="https://maps.google.com/?q=134+rue+Duguesclin,+69006+Lyon" class="reservation-line" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M12 22s7-6.5 7-12a7 7 0 1 0-14 0c0 5.5 7 12 7 12Z"/><circle cx="12" cy="10" r="2.5"/></svg>
+            <span>134 rue Duguesclin<br />69006 Lyon</span>
+          </a>
+        </div>
+      </aside>
+
+    </div>
+  </section>
+
+  <section class="res-module" id="module">
+    <div class="container">
+      <div class="section-head center-head">
+        <p class="eyebrow reveal">Le formulaire</p>
+        <h2 class="reveal">Réserver <em>en ligne</em></h2>
+        <p class="section-note reveal">
+          Choisissez votre date, votre horaire et le nombre de convives.
+        </p>
+      </div>
+      <div class="res-cta reveal">
+        <a class="btn btn-primary btn-large"
+           href="https://widget.thefork.com/fr/c048dc42-bc95-40d3-a755-baeeb0fa168d?step=date&amp;utm_source=agastache-restaurant-lyon.fr"
+           target="_blank" rel="noopener">
+          Accéder au module de réservation
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M7 17 17 7M17 7H9M17 7v8"/></svg>
+        </a>
+        <p class="res-cta-note">Réservation sécurisée via TheFork — ouvre un nouvel onglet</p>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <img src="images/logo.png" alt="Agastache Restaurant" class="footer-mark" />
+    <p class="footer-line">134 rue Duguesclin, 69006 Lyon — 04 78 52 30 31</p>
+    <p class="footer-legal">&copy; <span id="year"></span> Restaurant Agastache · Tous droits réservés</p>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
