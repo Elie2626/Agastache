@@ -1,0 +1,418 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Agastache — Restaurant Bistronomique à Lyon</title>
+<meta name="description" content="L'Agastache, restaurant bistronomique à Lyon 6e. Cuisine d'instinct, saisonnalité et produits sélectionnés. Déjeuner &amp; dîner du lundi au vendredi." />
+<link rel="icon" href="images/feuille.png" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,300;1,9..144,400;1,9..144,500&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+<a class="skip-link" href="#main">Passer au contenu principal</a>
+<div class="progress" aria-hidden="true"><span id="progress-bar"></span></div>
+
+<header class="site-header" id="site-header">
+  <div class="header-inner">
+    <a href="#top" class="brand" aria-label="Agastache — Accueil">
+      <img src="images/logo.png" alt="" class="brand-mark" />
+    </a>
+
+    <nav class="main-nav" aria-label="Navigation principale">
+      <a href="#restaurant"><span data-text="Le Restaurant">Le Restaurant</span></a>
+      <a href="#assiette"><span data-text="À l'assiette">À l'assiette</span></a>
+      <a href="#menus"><span data-text="Menus">Menus</span></a>
+      <a href="#equipe"><span data-text="L'Équipe">L'Équipe</span></a>
+      <a href="#reservation"><span data-text="Contact">Contact</span></a>
+    </nav>
+
+    <div class="header-actions">
+      <a class="btn btn-primary btn-small" href="#reservation">Réserver</a>
+      <button class="nav-toggle" id="nav-toggle" aria-expanded="false" aria-controls="mobile-nav" aria-label="Ouvrir le menu">
+        <span></span><span></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<div class="mobile-nav" id="mobile-nav" aria-hidden="true">
+  <nav aria-label="Navigation mobile">
+    <a href="#restaurant" style="--i:0">Le Restaurant</a>
+    <a href="#assiette" style="--i:1">À l'assiette</a>
+    <a href="#menus" style="--i:2">Menus</a>
+    <a href="#equipe" style="--i:3">L'Équipe</a>
+    <a href="#reservation" style="--i:4">Réservation</a>
+  </nav>
+  <div class="mobile-nav-foot" style="--i:5">
+    <a href="tel:+33478523031">04 78 52 30 31</a>
+    <p>134 rue Duguesclin, Lyon 6e</p>
+  </div>
+</div>
+
+<main id="main">
+
+  <!-- ============ HERO ============ -->
+  <section class="hero" id="top">
+    <div class="hero-media" data-parallax="0.25">
+      <img src="images/plat-web-20.jpg" alt="Dessert chocolat, sorbet agastache — restaurant Agastache" />
+    </div>
+    <div class="hero-scrim"></div>
+
+    <div class="hero-content">
+      <p class="hero-kicker reveal-line"><span>Bistronomie — Lyon 6<sup>e</sup></span></p>
+      <h1>
+        <span class="h1-line"><span>Une cuisine</span></span>
+        <span class="h1-line"><span><em>d'instinct</em>,</span></span>
+        <span class="h1-line"><span>née de la saison</span></span>
+      </h1>
+      <div class="hero-foot">
+        <p class="hero-lede">
+          Une cuisine gastronomique signée d'un chef formé dans des maisons
+          étoilées, servie dans l'esprit libre et chaleureux d'un bistrot lyonnais.
+        </p>
+        <div class="hero-actions">
+          <a href="#reservation" class="btn btn-primary">Réserver une table</a>
+          <a href="#menus" class="btn btn-ghost">Les menus</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="hero-badges" aria-label="Distinctions">
+      <span>Guide Michelin 2026</span>
+      <i></i>
+      <span>Gault &amp; Millau — 2 toques</span>
+    </div>
+  </section>
+
+  <!-- ============ MARQUEE ============ -->
+  <div class="marquee" aria-hidden="true">
+    <div class="marquee-track">
+      <span>Cuisine d'instinct</span><i>✳</i><span>Saisonnalité</span><i>✳</i><span>Légumes, poivres &amp; aromates</span><i>✳</i><span>Vins choisis</span><i>✳</i>
+      <span>Cuisine d'instinct</span><i>✳</i><span>Saisonnalité</span><i>✳</i><span>Légumes, poivres &amp; aromates</span><i>✳</i><span>Vins choisis</span><i>✳</i>
+      <span>Cuisine d'instinct</span><i>✳</i><span>Saisonnalité</span><i>✳</i><span>Légumes, poivres &amp; aromates</span><i>✳</i><span>Vins choisis</span><i>✳</i>
+    </div>
+  </div>
+
+  <!-- ============ LE RESTAURANT ============ -->
+  <section class="section presentation" id="restaurant">
+    <div class="container">
+      <div class="section-head">
+        <p class="eyebrow reveal">Le restaurant</p>
+        <h2 class="reveal">L'Agastache,<br /><em>vous connaissez&nbsp;?</em></h2>
+      </div>
+
+      <div class="presentation-grid">
+        <figure class="presentation-photo reveal-img">
+          <div class="img-mask">
+            <img src="images/salle.jpg" alt="La salle du restaurant Agastache, lumineuse et chaleureuse" data-parallax="0.12" />
+          </div>
+          <figcaption>La salle, rue Duguesclin</figcaption>
+        </figure>
+
+        <div class="presentation-body">
+          <div class="definition reveal">
+            <p class="definition-word">agastache <span>n.f.</span></p>
+            <p class="definition-text">
+              Plante vivace au goût anisé très prononcé. Ce nom n'a pas été
+              choisi par hasard&nbsp;: notre cuisine s'inspire de la nature.
+            </p>
+          </div>
+
+          <p class="body-text reveal">
+            Le restaurant Agastache vous invite dans son univers
+            <strong>«&nbsp;bistronomique&nbsp;»</strong>&nbsp;— l'association d'une cuisine
+            gastronomique et d'un environnement bistrot, décontracté, moderne
+            et chaleureux. La carte des vins est volontairement courte,
+            sélectionnée avec soin.
+          </p>
+
+          <ul class="value-list">
+            <li class="reveal">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M12 21c-4-2-7-6-7-10a7 7 0 0 1 14 0c0 4-3 8-7 10Z"/><path d="M12 11v6"/><path d="M9 8c1.5 0 3 1 3 3 0-2 1.5-3 3-3"/></svg>
+              <div>
+                <p class="value-title">Cuisine d'instinct</p>
+                <p class="value-desc">Fondée sur le respect et la saisonnalité des produits.</p>
+              </div>
+            </li>
+            <li class="reveal">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M8 3v4M16 3v4M4 9h16M5 6h14a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1Z"/></svg>
+              <div>
+                <p class="value-title">Menus vivants</p>
+                <p class="value-desc">Le déjeuner change toutes les deux semaines, le dîner au gré des arrivages.</p>
+              </div>
+            </li>
+            <li class="reveal">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M12 2c2 2.5 3 5 3 7a3 3 0 1 1-6 0c0-2 1-4.5 3-7Z"/><path d="M6 13c1 2 1 4-1 7M18 13c-1 2-1 4 1 7M12 12v9"/></svg>
+              <div>
+                <p class="value-title">Démarche écologique</p>
+                <p class="value-desc">L'eau, filtrée sur place et gazéifiée à la demande, est incluse dans nos menus.</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ GALERIE ============ -->
+  <section class="section gallery" id="assiette">
+    <div class="container">
+      <div class="section-head between">
+        <div>
+          <p class="eyebrow reveal">À l'assiette</p>
+          <h2 class="reveal">Le végétal<br /><em>en majesté</em></h2>
+        </div>
+        <p class="section-note reveal">
+          Légumes, poivres et aromates — l'identité culinaire du chef,
+          affirmée au fil des maisons étoilées.
+        </p>
+      </div>
+    </div>
+
+    <div class="gallery-grid container-wide">
+      <figure class="g-item g-a reveal-img">
+        <div class="img-mask"><img src="images/plat-signature-hd.jpg" alt="Le Chèvre Frais de Clovis" loading="lazy" /></div>
+        <figcaption><span>01</span>Le Chèvre Frais de Clovis</figcaption>
+      </figure>
+      <figure class="g-item g-b reveal-img">
+        <div class="img-mask"><img src="images/plat-web-21.jpg" alt="Langoustine, assiette de grès noir" loading="lazy" /></div>
+        <figcaption><span>02</span>Langoustine, grès noir</figcaption>
+      </figure>
+      <figure class="g-item g-c reveal-img">
+        <div class="img-mask"><img src="images/omble-carotte.jpg" alt="Omble chevalier, carotte, fleurs comestibles" loading="lazy" /></div>
+        <figcaption><span>03</span>Omble chevalier, carotte</figcaption>
+      </figure>
+      <figure class="g-item g-d reveal-img">
+        <div class="img-mask"><img src="images/agastache-10.jpg" alt="Détail d'un plat, herbes fraîches et tuile de chocolat" loading="lazy" /></div>
+        <figcaption><span>04</span>Le végétal, l'anisé, l'amer</figcaption>
+      </figure>
+      <figure class="g-item g-e reveal-img">
+        <div class="img-mask"><img src="images/plat-web-3.jpg" alt="Sorbet carotte, mikado, jeunes pousses" loading="lazy" /></div>
+        <figcaption><span>05</span>Carotte, sorbet, mikado</figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <!-- ============ MENUS ============ -->
+  <section class="section menus" id="menus">
+    <img src="images/feuille.png" alt="" class="menus-leaf" data-parallax="0.18" />
+    <div class="container">
+      <div class="section-head center-head">
+        <p class="eyebrow reveal">La carte</p>
+        <h2 class="reveal">Menus <em>de saison</em></h2>
+        <p class="section-note reveal">
+          Dans notre démarche écologique et environnementale, nos menus
+          incluent l'eau — filtrée sur place, gazéifiée à la demande.
+        </p>
+      </div>
+
+      <div class="menu-tabs reveal" role="tablist" aria-label="Choix du menu">
+        <button role="tab" id="tab-dejeuner" aria-selected="true" aria-controls="panel-dejeuner" class="menu-tab is-active">Déjeuner</button>
+        <button role="tab" id="tab-diner" aria-selected="false" aria-controls="panel-diner" class="menu-tab">Dîner</button>
+        <span class="menu-tab-ink" id="menu-tab-ink" aria-hidden="true"></span>
+      </div>
+
+      <div class="menu-panels">
+        <div class="menu-panel is-active" id="panel-dejeuner" role="tabpanel" aria-labelledby="tab-dejeuner">
+          <p class="menu-period">Du lundi 6 au vendredi 31 juillet 2026 — servi du lundi au vendredi</p>
+
+          <div class="menu-formulas">
+            <div class="formula">
+              <p class="formula-name">Menu Atsina</p>
+              <p class="formula-detail">Entrée, plat, dessert <span>· sauf jours fériés</span></p>
+              <p class="formula-price">28<sup>€</sup></p>
+            </div>
+            <div class="formula formula-featured">
+              <p class="formula-name">Menu Agastache</p>
+              <p class="formula-detail">Entrée, plat, dessert <span>+ interludes</span></p>
+              <p class="formula-price">35<sup>€</sup></p>
+            </div>
+          </div>
+
+          <div class="menu-courses">
+            <div class="course">
+              <p class="course-label">Entrée</p>
+              <ul>
+                <li>Tomate, mozzarella, noix de pécan</li>
+                <li class="signature">Foie gras poché-brûlé, shiitake, dashi <span>signature · +5€</span></li>
+              </ul>
+            </div>
+            <div class="course">
+              <p class="course-label">Plat</p>
+              <ul>
+                <li>Ceviche de maigre, noix de coco, poivron</li>
+                <li>Cochon, sucrine, yuzu</li>
+              </ul>
+            </div>
+            <div class="course">
+              <p class="course-label">Dessert</p>
+              <ul>
+                <li>Myrtille, baie de verveine, financier</li>
+                <li class="signature">Chocolat «&nbsp;Envol Chocolaté&nbsp;», agastache <span>signature · +3€</span></li>
+              </ul>
+            </div>
+          </div>
+          <p class="menu-note">Prix nets — TVA et service compris</p>
+        </div>
+
+        <div class="menu-panel" id="panel-diner" role="tabpanel" aria-labelledby="tab-diner" hidden>
+          <p class="menu-period">Juillet – Août 2026 — servi lundi, mardi, jeudi et vendredi soir</p>
+
+          <div class="menu-formulas">
+            <div class="formula">
+              <p class="formula-name">Menu Atsina</p>
+              <p class="formula-detail">Entrée, plat, dessert <span>+ interludes</span></p>
+              <p class="formula-price">42<sup>€</sup></p>
+            </div>
+            <div class="formula formula-featured">
+              <p class="formula-name">Menu Agastache</p>
+              <p class="formula-detail">Entrée, deux plats, dessert <span>+ interludes</span></p>
+              <p class="formula-price">50<sup>€</sup></p>
+            </div>
+          </div>
+
+          <div class="menu-courses">
+            <div class="course">
+              <p class="course-label">Entrée</p>
+              <ul>
+                <li>Moule, noix de coco, gingembre</li>
+                <li>Brocoli, menthe, mozzarella</li>
+                <li class="signature">Foie gras poché-brûlé, shiitake, dashi <span>signature · +5€</span></li>
+              </ul>
+            </div>
+            <div class="course">
+              <p class="course-label">Plat</p>
+              <ul>
+                <li>Sériole, fenouil, fraise</li>
+                <li>Volaille des Dombes, céleri, sarriette</li>
+                <li>Suggestion selon les arrivages</li>
+              </ul>
+            </div>
+            <div class="course">
+              <p class="course-label">Dessert</p>
+              <ul>
+                <li>Chocolat, cassis, piment</li>
+                <li>Framboise, verveine, amande</li>
+                <li class="signature">Chocolat «&nbsp;Envol Chocolaté&nbsp;», agastache <span>signature · +3€</span></li>
+              </ul>
+            </div>
+          </div>
+          <p class="menu-note">Prix nets — TVA et service compris</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ ÉQUIPE ============ -->
+  <section class="section team" id="equipe">
+    <div class="container">
+      <div class="section-head">
+        <p class="eyebrow reveal">L'équipe</p>
+        <h2 class="reveal">Deux parcours,<br /><em>une même exigence</em></h2>
+      </div>
+
+      <div class="team-grid">
+        <article class="team-card reveal">
+          <div class="team-top">
+            <div class="team-photo"><img src="images/mathieu.png" alt="Portrait de Mathieu L'Her" /></div>
+            <div>
+              <p class="team-role">Côté salle</p>
+              <h3>Mathieu L'Her</h3>
+              <p class="team-title">Gérant</p>
+            </div>
+          </div>
+          <p class="team-bio">
+            Licence de management en hôtellerie internationale (Vatel Lyon, 2012),
+            un restaurant gastronomique en Californie, puis la maison étoilée de
+            Christian Têtedoie où il aiguise son sens du détail. En 2015, il prend
+            la salle de l'Arsenic — la «&nbsp;pépinière de chefs&nbsp;» — avant de fonder
+            l'Agastache le 2&nbsp;mars&nbsp;2020.
+          </p>
+          <p class="team-houses">Vatel Lyon · Christian Têtedoie · L'Arsenic</p>
+        </article>
+
+        <article class="team-card reveal">
+          <div class="team-top">
+            <div class="team-photo"><img src="images/alexis.png" alt="Portrait d'Alexis Lauriac" /></div>
+            <div>
+              <p class="team-role">Côté cuisine</p>
+              <h3>Alexis Lauriac</h3>
+              <p class="team-title">Chef</p>
+            </div>
+          </div>
+          <p class="team-bio">
+            Formé auprès de grands chefs étoilés — Christian Têtedoie à Lyon,
+            Olivier Samin au Carré d'Alethius, Laurent Petit au Clos des Sens à
+            Annecy. Son identité culinaire s'affirme autour du travail des
+            légumes, des poivres et des aromates. Il rejoint l'Agastache en
+            septembre&nbsp;2023.
+          </p>
+          <p class="team-houses">Têtedoie · Le Carré d'Alethius · Le Clos des Sens</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ RÉSERVATION ============ -->
+  <section class="reservation" id="reservation">
+    <div class="reservation-media" data-parallax="0.2">
+      <img src="images/plat-web-21.jpg" alt="" loading="lazy" />
+    </div>
+    <div class="reservation-scrim"></div>
+
+    <div class="container reservation-inner">
+      <div class="reservation-text">
+        <p class="eyebrow reveal">Réservation</p>
+        <h2 class="reveal">Votre table<br /><em>vous attend</em></h2>
+
+        <dl class="hours-list reveal">
+          <div class="hours-row"><dt>Déjeuner</dt><dd>Lundi — Vendredi</dd></div>
+          <div class="hours-row"><dt>Dîner</dt><dd>Lundi, Mardi, Jeudi, Vendredi</dd></div>
+          <div class="hours-row hours-closed"><dt>Fermé</dt><dd>Samedi, Dimanche &amp; Mercredi soir</dd></div>
+        </dl>
+
+        <div class="hero-actions reveal">
+          <a href="https://agastache-restaurant-lyon.fr/reservations/" class="btn btn-primary" target="_blank" rel="noopener">Je réserve en ligne</a>
+          <a href="tel:+33478523031" class="btn btn-ghost">04 78 52 30 31</a>
+        </div>
+      </div>
+
+      <div class="reservation-card reveal">
+        <p class="reservation-card-title">Nous trouver</p>
+        <a href="https://maps.google.com/?q=134+rue+Duguesclin,+69006+Lyon" class="reservation-line" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M12 22s7-6.5 7-12a7 7 0 1 0-14 0c0 5.5 7 12 7 12Z"/><circle cx="12" cy="10" r="2.5"/></svg>
+          <span>134 rue Duguesclin<br />69006 Lyon</span>
+        </a>
+        <a href="mailto:reservation@agastache-restaurant-lyon.fr" class="reservation-line">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg>
+          <span>reservation@<br />agastache-restaurant-lyon.fr</span>
+        </a>
+        <div class="reservation-social">
+          <a href="https://www.instagram.com/agastache_restaurant_lyon/" target="_blank" rel="noopener" aria-label="Instagram">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.2" cy="6.8" r="1"/></svg>
+          </a>
+          <a href="https://www.facebook.com/Agastache-Restaurant-102006594689077/" target="_blank" rel="noopener" aria-label="Facebook">
+            <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M13.5 21v-7.5H16l.5-3H13.5V8.5c0-.87.24-1.46 1.5-1.46H16.5V4.35A20.6 20.6 0 0 0 14.2 4.2c-2.27 0-3.83 1.39-3.83 3.93v2.37H8v3h2.37V21h3.13Z"/></svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <img src="images/logo.png" alt="Agastache Restaurant" class="footer-mark" />
+    <p class="footer-line">134 rue Duguesclin, 69006 Lyon — 04 78 52 30 31</p>
+    <p class="footer-legal">&copy; <span id="year"></span> Restaurant Agastache · Tous droits réservés</p>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
